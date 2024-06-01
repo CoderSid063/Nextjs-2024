@@ -3,7 +3,7 @@ import { buildFeedbackPath, extractFeedback } from "../api/feedback";
 export default function FeedbackPage(props) {
   return (
     <ul>
-      {props.feedbaclItems.map((item) => (
+      {props.feedbackItems.map((item) => (
         <li key={item.id}>{item.text}</li>
       ))}
     </ul>
